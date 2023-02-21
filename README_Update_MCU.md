@@ -2,7 +2,7 @@
 
 ## menuconfig skr1.4
 
-V2.1005 is currently running with SKR 1.4 (not Turbo)
+V2.1005 is currently running with one SKR 1.4 (not Turbo)
 
 ```
 [ ] Enable extra low-level configuration options
@@ -11,6 +11,27 @@ V2.1005 is currently running with SKR 1.4 (not Turbo)
 [*] Target board uses Smoothieware bootloader
     Communication interface (USB)  --->
 ```
+```
+cd klipper
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_lpc1768_10200001881C4AAFE65D685DC22000F5-if00
+```
+
+## menuconfig skr1.4 turbo
+
+V2.1005 is currently running with one SKR 1.4 Turbo
+
+```
+[ ] Enable extra low-level configuration options
+    Micro-controller Architecture (LPC176x (Smoothieboard))  --->
+    Processor model (lpc1769 (120 MHz))  --->
+    Bootloader offset (16KiB bootloader (Smoothieware bootloader))  --->
+    Communication interface (USB)  --->
+```
+```
+cd klipper
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_lpc1769_1A80011605A5D79572874662C52000F5-if00
+```
+
 
 ### USB Update
 
