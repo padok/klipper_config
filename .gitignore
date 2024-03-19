@@ -2,3 +2,4 @@
 printer-*.cfg
 ip.out
 .moonraker.conf.bkp
+save_variables.cfg
