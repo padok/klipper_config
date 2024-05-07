@@ -1,5 +1,4 @@
-.mainsail.json
-printer-*.cfg
-ip.out
 .moonraker.conf.bkp
-save_variables.cfg
+crowsnest.conf.*
+*.backup
+moonraker-obico.cfg

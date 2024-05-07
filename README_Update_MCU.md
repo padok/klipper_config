@@ -29,7 +29,7 @@ V2.1005 is currently running with one SKR 1.4 Turbo
 ```
 ```
 cd klipper
-make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_lpc1769_1A80011605A5D79572874662C52000F5-if00
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_lpc1769_2810011505A5D795897A4662C52000F5-if00
 ```
 
 
