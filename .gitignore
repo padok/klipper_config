@@ -2,3 +2,4 @@
 crowsnest.conf.*
 *.backup
 moonraker-obico.cfg
+printer-*.cfg
